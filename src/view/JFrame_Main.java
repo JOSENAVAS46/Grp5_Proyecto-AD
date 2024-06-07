@@ -31,51 +31,74 @@ public class JFrame_Main extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        pnlAsientoBoleteria = new javax.swing.JPanel();
+        jLabel16 = new javax.swing.JLabel();
+        btnAsiento1 = new javax.swing.JButton();
+        btnAsiento2 = new javax.swing.JButton();
+        btnAsiento3 = new javax.swing.JButton();
+        btnAsiento4 = new javax.swing.JButton();
+        btnAsiento5 = new javax.swing.JButton();
+        btnAsiento6 = new javax.swing.JButton();
+        btnAsiento7 = new javax.swing.JButton();
+        btnAsiento8 = new javax.swing.JButton();
+        btnAsiento9 = new javax.swing.JButton();
+        btnAsiento10 = new javax.swing.JButton();
+        btnAsiento11 = new javax.swing.JButton();
+        btnAsiento12 = new javax.swing.JButton();
+        btnAsiento13 = new javax.swing.JButton();
+        btnAsiento14 = new javax.swing.JButton();
+        btnAsiento15 = new javax.swing.JButton();
+        btnAsiento16 = new javax.swing.JButton();
+        btnAsiento17 = new javax.swing.JButton();
+        btnAsiento18 = new javax.swing.JButton();
+        btnAsiento19 = new javax.swing.JButton();
+        btnAsiento20 = new javax.swing.JButton();
+        btnAsiento21 = new javax.swing.JButton();
+        btnAsiento22 = new javax.swing.JButton();
+        btnAsiento23 = new javax.swing.JButton();
+        btnAsiento24 = new javax.swing.JButton();
+        btnAsiento25 = new javax.swing.JButton();
+        btnAsiento26 = new javax.swing.JButton();
+        btnAsiento27 = new javax.swing.JButton();
         pnlVentanilla1 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         txtNumAsientoV1 = new javax.swing.JTextField();
-        txtCambioAsientoV1 = new javax.swing.JTextField();
-        txtNombrePasajeroV1 = new javax.swing.JTextField();
+        txtPasajeroV1 = new javax.swing.JTextField();
         btnReservarV1 = new javax.swing.JButton();
         btnCambiarV1 = new javax.swing.JButton();
         btnEliminarV1 = new javax.swing.JButton();
         pnlVentanilla2 = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
         txtNumAsientoV2 = new javax.swing.JTextField();
-        txtCambioAsientoV2 = new javax.swing.JTextField();
-        txtNombrePasajeroV2 = new javax.swing.JTextField();
+        txtPasajeroV2 = new javax.swing.JTextField();
         btnReservarV2 = new javax.swing.JButton();
         btnCambiarV2 = new javax.swing.JButton();
         btnEliminarV2 = new javax.swing.JButton();
         pnlVentanilla3 = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         txtNumAsientoV3 = new javax.swing.JTextField();
-        txtCambioAsientoV3 = new javax.swing.JTextField();
-        txtNombrePasajeroV3 = new javax.swing.JTextField();
+        txtPasajeroV3 = new javax.swing.JTextField();
         btnReservarV3 = new javax.swing.JButton();
         btnCambiarV3 = new javax.swing.JButton();
         btnEliminarV3 = new javax.swing.JButton();
-        pnlAsientoBoleteria = new javax.swing.JPanel();
-        jLabel16 = new javax.swing.JLabel();
-        pnlEstadoReserva = new javax.swing.JPanel();
-        jLabel17 = new javax.swing.JLabel();
-        pnlReservaParalela = new javax.swing.JPanel();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        txtNumAsiento = new javax.swing.JTextField();
-        btnReservarRP = new javax.swing.JButton();
-        pnlVistaCola = new javax.swing.JPanel();
-        jLabel19 = new javax.swing.JLabel();
-        btnLimpiarReservas = new javax.swing.JButton();
+        pnlVistaPasajeros = new javax.swing.JPanel();
+        jLabel21 = new javax.swing.JLabel();
+        pnlRegistroPasajero = new javax.swing.JPanel();
+        btnRegistrarPasajero = new javax.swing.JButton();
+        txtNombre = new javax.swing.JTextField();
+        txtCedula = new javax.swing.JTextField();
+        txtDireccion = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(100, 100));
@@ -136,15 +159,266 @@ public class JFrame_Main extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        pnlVentanilla1.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        pnlAsientoBoleteria.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        jLabel16.setText("Asientos Avion");
+
+        btnAsiento1.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento1.setText("01");
+        btnAsiento1.setEnabled(false);
+
+        btnAsiento2.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento2.setText("02");
+        btnAsiento2.setEnabled(false);
+
+        btnAsiento3.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento3.setText("03");
+        btnAsiento3.setEnabled(false);
+
+        btnAsiento4.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento4.setText("04");
+        btnAsiento4.setEnabled(false);
+
+        btnAsiento5.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento5.setText("05");
+        btnAsiento5.setEnabled(false);
+
+        btnAsiento6.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento6.setText("06");
+        btnAsiento6.setEnabled(false);
+
+        btnAsiento7.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento7.setText("07");
+        btnAsiento7.setEnabled(false);
+
+        btnAsiento8.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento8.setText("08");
+        btnAsiento8.setEnabled(false);
+
+        btnAsiento9.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento9.setText("09");
+        btnAsiento9.setEnabled(false);
+
+        btnAsiento10.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento10.setText("10");
+        btnAsiento10.setEnabled(false);
+
+        btnAsiento11.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento11.setText("11");
+        btnAsiento11.setEnabled(false);
+
+        btnAsiento12.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento12.setText("12");
+        btnAsiento12.setEnabled(false);
+
+        btnAsiento13.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento13.setText("13");
+        btnAsiento13.setEnabled(false);
+
+        btnAsiento14.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento14.setText("14");
+        btnAsiento14.setEnabled(false);
+
+        btnAsiento15.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento15.setText("15");
+        btnAsiento15.setEnabled(false);
+
+        btnAsiento16.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento16.setText("16");
+        btnAsiento16.setEnabled(false);
+
+        btnAsiento17.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento17.setText("17");
+        btnAsiento17.setEnabled(false);
+
+        btnAsiento18.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento18.setText("18");
+        btnAsiento18.setEnabled(false);
+
+        btnAsiento19.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento19.setText("19");
+        btnAsiento19.setEnabled(false);
+
+        btnAsiento20.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento20.setText("20");
+        btnAsiento20.setEnabled(false);
+
+        btnAsiento21.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento21.setText("21");
+        btnAsiento21.setEnabled(false);
+
+        btnAsiento22.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento22.setText("22");
+        btnAsiento22.setEnabled(false);
+
+        btnAsiento23.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento23.setText("23");
+        btnAsiento23.setEnabled(false);
+
+        btnAsiento24.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento24.setText("24");
+        btnAsiento24.setEnabled(false);
+
+        btnAsiento25.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento25.setText("25");
+        btnAsiento25.setEnabled(false);
+
+        btnAsiento26.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento26.setText("26");
+        btnAsiento26.setEnabled(false);
+
+        btnAsiento27.setBackground(new java.awt.Color(0, 255, 51));
+        btnAsiento27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/asiento.png"))); // NOI18N
+        btnAsiento27.setText("27");
+        btnAsiento27.setEnabled(false);
+
+        javax.swing.GroupLayout pnlAsientoBoleteriaLayout = new javax.swing.GroupLayout(pnlAsientoBoleteria);
+        pnlAsientoBoleteria.setLayout(pnlAsientoBoleteriaLayout);
+        pnlAsientoBoleteriaLayout.setHorizontalGroup(
+            pnlAsientoBoleteriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlAsientoBoleteriaLayout.createSequentialGroup()
+                .addGroup(pnlAsientoBoleteriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel16)
+                    .addGroup(pnlAsientoBoleteriaLayout.createSequentialGroup()
+                        .addGap(37, 37, 37)
+                        .addGroup(pnlAsientoBoleteriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(pnlAsientoBoleteriaLayout.createSequentialGroup()
+                                .addComponent(btnAsiento2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAsiento5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAsiento8)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAsiento11)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAsiento14)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAsiento17))
+                            .addGroup(pnlAsientoBoleteriaLayout.createSequentialGroup()
+                                .addComponent(btnAsiento3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAsiento6)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAsiento9)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAsiento12)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAsiento15)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAsiento18))
+                            .addGroup(pnlAsientoBoleteriaLayout.createSequentialGroup()
+                                .addComponent(btnAsiento1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAsiento4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAsiento7)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAsiento10)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAsiento13)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnAsiento16)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(pnlAsientoBoleteriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnAsiento20)
+                            .addComponent(btnAsiento21)
+                            .addComponent(btnAsiento19))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(pnlAsientoBoleteriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnAsiento23)
+                            .addComponent(btnAsiento24)
+                            .addComponent(btnAsiento22))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(pnlAsientoBoleteriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnAsiento26)
+                            .addComponent(btnAsiento27)
+                            .addComponent(btnAsiento25))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        pnlAsientoBoleteriaLayout.setVerticalGroup(
+            pnlAsientoBoleteriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlAsientoBoleteriaLayout.createSequentialGroup()
+                .addComponent(jLabel16)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(pnlAsientoBoleteriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(pnlAsientoBoleteriaLayout.createSequentialGroup()
+                        .addGroup(pnlAsientoBoleteriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btnAsiento1)
+                            .addComponent(btnAsiento4)
+                            .addComponent(btnAsiento7)
+                            .addComponent(btnAsiento10)
+                            .addComponent(btnAsiento13)
+                            .addComponent(btnAsiento16))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(pnlAsientoBoleteriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btnAsiento2)
+                            .addComponent(btnAsiento5)
+                            .addComponent(btnAsiento8)
+                            .addComponent(btnAsiento11)
+                            .addComponent(btnAsiento14)
+                            .addComponent(btnAsiento17))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(pnlAsientoBoleteriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btnAsiento3)
+                            .addComponent(btnAsiento6)
+                            .addComponent(btnAsiento9)
+                            .addComponent(btnAsiento12)
+                            .addComponent(btnAsiento15)
+                            .addComponent(btnAsiento18)))
+                    .addGroup(pnlAsientoBoleteriaLayout.createSequentialGroup()
+                        .addComponent(btnAsiento19)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btnAsiento20)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btnAsiento21))
+                    .addGroup(pnlAsientoBoleteriaLayout.createSequentialGroup()
+                        .addComponent(btnAsiento22)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btnAsiento23)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btnAsiento24))
+                    .addGroup(pnlAsientoBoleteriaLayout.createSequentialGroup()
+                        .addComponent(btnAsiento25)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btnAsiento26)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btnAsiento27)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        pnlVentanilla1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel4.setText("Ventanilla 1");
 
         jLabel5.setText("Numero de Asiento:");
 
-        jLabel6.setText("Cambio Asiento:");
-
-        jLabel7.setText("Nombre del Pasajero:");
+        jLabel7.setText("Codigo del Pasajero:");
 
         txtNumAsientoV1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -152,15 +426,9 @@ public class JFrame_Main extends javax.swing.JFrame {
             }
         });
 
-        txtCambioAsientoV1.addActionListener(new java.awt.event.ActionListener() {
+        txtPasajeroV1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCambioAsientoV1ActionPerformed(evt);
-            }
-        });
-
-        txtNombrePasajeroV1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtNombrePasajeroV1ActionPerformed(evt);
+                txtPasajeroV1ActionPerformed(evt);
             }
         });
 
@@ -168,7 +436,7 @@ public class JFrame_Main extends javax.swing.JFrame {
 
         btnCambiarV1.setText("Cambiar");
 
-        btnEliminarV1.setText("Reservar");
+        btnEliminarV1.setText("Eliminar");
         btnEliminarV1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEliminarV1ActionPerformed(evt);
@@ -185,23 +453,19 @@ public class JFrame_Main extends javax.swing.JFrame {
                     .addGroup(pnlVentanilla1Layout.createSequentialGroup()
                         .addComponent(jLabel5)
                         .addGap(18, 18, 18)
-                        .addComponent(txtNumAsientoV1))
+                        .addComponent(txtNumAsientoV1, javax.swing.GroupLayout.DEFAULT_SIZE, 120, Short.MAX_VALUE))
                     .addGroup(pnlVentanilla1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(jLabel4)
-                        .addGroup(pnlVentanilla1Layout.createSequentialGroup()
-                            .addComponent(jLabel7)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(txtNombrePasajeroV1))
                         .addGroup(pnlVentanilla1Layout.createSequentialGroup()
                             .addComponent(btnReservarV1)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addComponent(btnCambiarV1)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addComponent(btnEliminarV1))
-                        .addGroup(pnlVentanilla1Layout.createSequentialGroup()
-                            .addComponent(jLabel6)
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlVentanilla1Layout.createSequentialGroup()
+                            .addComponent(jLabel7)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(txtCambioAsientoV1, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(txtPasajeroV1, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlVentanilla1Layout.setVerticalGroup(
@@ -213,14 +477,10 @@ public class JFrame_Main extends javax.swing.JFrame {
                 .addGroup(pnlVentanilla1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
                     .addComponent(txtNumAsientoV1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(pnlVentanilla1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel6)
-                    .addComponent(txtCambioAsientoV1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(pnlVentanilla1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel7)
-                    .addComponent(txtNombrePasajeroV1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtPasajeroV1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(pnlVentanilla1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnReservarV1)
@@ -229,15 +489,13 @@ public class JFrame_Main extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        pnlVentanilla2.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        pnlVentanilla2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel8.setText("Ventanilla 2");
 
         jLabel9.setText("Numero de Asiento:");
 
-        jLabel10.setText("Cambio Asiento:");
-
-        jLabel11.setText("Nombre del Pasajero:");
+        jLabel11.setText("Codigo del Pasajero:");
 
         txtNumAsientoV2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -245,15 +503,9 @@ public class JFrame_Main extends javax.swing.JFrame {
             }
         });
 
-        txtCambioAsientoV2.addActionListener(new java.awt.event.ActionListener() {
+        txtPasajeroV2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCambioAsientoV2ActionPerformed(evt);
-            }
-        });
-
-        txtNombrePasajeroV2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtNombrePasajeroV2ActionPerformed(evt);
+                txtPasajeroV2ActionPerformed(evt);
             }
         });
 
@@ -261,7 +513,7 @@ public class JFrame_Main extends javax.swing.JFrame {
 
         btnCambiarV2.setText("Cambiar");
 
-        btnEliminarV2.setText("Reservar");
+        btnEliminarV2.setText("Eliminar");
         btnEliminarV2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEliminarV2ActionPerformed(evt);
@@ -284,14 +536,12 @@ public class JFrame_Main extends javax.swing.JFrame {
                         .addComponent(btnEliminarV2))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlVentanilla2Layout.createSequentialGroup()
                         .addGroup(pnlVentanilla2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel10)
                             .addComponent(jLabel11)
                             .addComponent(jLabel9))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(pnlVentanilla2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(txtNumAsientoV2, javax.swing.GroupLayout.DEFAULT_SIZE, 109, Short.MAX_VALUE)
-                            .addComponent(txtNombrePasajeroV2)
-                            .addComponent(txtCambioAsientoV2))))
+                            .addComponent(txtPasajeroV2))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlVentanilla2Layout.setVerticalGroup(
@@ -303,31 +553,25 @@ public class JFrame_Main extends javax.swing.JFrame {
                 .addGroup(pnlVentanilla2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel9)
                     .addComponent(txtNumAsientoV2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(pnlVentanilla2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel10)
-                    .addComponent(txtCambioAsientoV2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(pnlVentanilla2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel11)
-                    .addComponent(txtNombrePasajeroV2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(txtPasajeroV2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(pnlVentanilla2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnReservarV2)
                     .addComponent(btnCambiarV2)
                     .addComponent(btnEliminarV2))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(17, Short.MAX_VALUE))
         );
 
-        pnlVentanilla3.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        pnlVentanilla3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
         jLabel12.setText("Ventanilla 3");
 
         jLabel13.setText("Numero de Asiento:");
 
-        jLabel14.setText("Cambio Asiento:");
-
-        jLabel15.setText("Nombre del Pasajero:");
+        jLabel15.setText("Codigo del Pasajero:");
 
         txtNumAsientoV3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -335,15 +579,9 @@ public class JFrame_Main extends javax.swing.JFrame {
             }
         });
 
-        txtCambioAsientoV3.addActionListener(new java.awt.event.ActionListener() {
+        txtPasajeroV3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCambioAsientoV3ActionPerformed(evt);
-            }
-        });
-
-        txtNombrePasajeroV3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtNombrePasajeroV3ActionPerformed(evt);
+                txtPasajeroV3ActionPerformed(evt);
             }
         });
 
@@ -351,7 +589,7 @@ public class JFrame_Main extends javax.swing.JFrame {
 
         btnCambiarV3.setText("Cambiar");
 
-        btnEliminarV3.setText("Reservar");
+        btnEliminarV3.setText("Eliminar");
         btnEliminarV3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEliminarV3ActionPerformed(evt);
@@ -374,17 +612,13 @@ public class JFrame_Main extends javax.swing.JFrame {
                         .addGroup(pnlVentanilla3Layout.createSequentialGroup()
                             .addComponent(jLabel15)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(txtNombrePasajeroV3))
+                            .addComponent(txtPasajeroV3))
                         .addGroup(pnlVentanilla3Layout.createSequentialGroup()
                             .addComponent(btnReservarV3)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                             .addComponent(btnCambiarV3)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(btnEliminarV3))
-                        .addGroup(pnlVentanilla3Layout.createSequentialGroup()
-                            .addComponent(jLabel14)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(txtCambioAsientoV3, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(btnEliminarV3))))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlVentanilla3Layout.setVerticalGroup(
@@ -396,127 +630,118 @@ public class JFrame_Main extends javax.swing.JFrame {
                 .addGroup(pnlVentanilla3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel13)
                     .addComponent(txtNumAsientoV3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(pnlVentanilla3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel14)
-                    .addComponent(txtCambioAsientoV3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(pnlVentanilla3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel15)
-                    .addComponent(txtNombrePasajeroV3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                    .addComponent(txtPasajeroV3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(pnlVentanilla3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnReservarV3)
                     .addComponent(btnCambiarV3)
                     .addComponent(btnEliminarV3))
-                .addContainerGap(16, Short.MAX_VALUE))
+                .addContainerGap(17, Short.MAX_VALUE))
         );
 
-        pnlAsientoBoleteria.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        pnlVistaPasajeros.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        jLabel16.setText("Asiento Boleteria");
+        jLabel21.setText("Pasajeros");
 
-        javax.swing.GroupLayout pnlAsientoBoleteriaLayout = new javax.swing.GroupLayout(pnlAsientoBoleteria);
-        pnlAsientoBoleteria.setLayout(pnlAsientoBoleteriaLayout);
-        pnlAsientoBoleteriaLayout.setHorizontalGroup(
-            pnlAsientoBoleteriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlAsientoBoleteriaLayout.createSequentialGroup()
+        pnlRegistroPasajero.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        btnRegistrarPasajero.setText("Registrar");
+
+        jLabel6.setText("Cedula:");
+
+        jLabel10.setText("Nombre:");
+
+        jLabel14.setText("Direccion:");
+
+        javax.swing.GroupLayout pnlRegistroPasajeroLayout = new javax.swing.GroupLayout(pnlRegistroPasajero);
+        pnlRegistroPasajero.setLayout(pnlRegistroPasajeroLayout);
+        pnlRegistroPasajeroLayout.setHorizontalGroup(
+            pnlRegistroPasajeroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlRegistroPasajeroLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel16)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(pnlRegistroPasajeroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtNombre)
+                    .addComponent(txtCedula)
+                    .addComponent(txtDireccion, javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(pnlRegistroPasajeroLayout.createSequentialGroup()
+                        .addGroup(pnlRegistroPasajeroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel6)
+                            .addComponent(jLabel10)
+                            .addComponent(jLabel14))
+                        .addGap(0, 112, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlRegistroPasajeroLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(btnRegistrarPasajero)))
+                .addContainerGap())
         );
-        pnlAsientoBoleteriaLayout.setVerticalGroup(
-            pnlAsientoBoleteriaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlAsientoBoleteriaLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel16)
-                .addContainerGap(108, Short.MAX_VALUE))
+        pnlRegistroPasajeroLayout.setVerticalGroup(
+            pnlRegistroPasajeroLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlRegistroPasajeroLayout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txtCedula, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel10)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txtNombre, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel14)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txtDireccion, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(btnRegistrarPasajero)
+                .addGap(6, 6, 6))
         );
 
-        pnlEstadoReserva.setBorder(javax.swing.BorderFactory.createLineBorder(null));
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
 
-        jLabel17.setText("Estado de Reserva");
+            },
+            new String [] {
+                "ID", "CEDULA", "NOMBRE", "DIRECCION"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, true, true
+            };
 
-        javax.swing.GroupLayout pnlEstadoReservaLayout = new javax.swing.GroupLayout(pnlEstadoReserva);
-        pnlEstadoReserva.setLayout(pnlEstadoReservaLayout);
-        pnlEstadoReservaLayout.setHorizontalGroup(
-            pnlEstadoReservaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlEstadoReservaLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel17)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane1.setViewportView(jTable1);
+
+        javax.swing.GroupLayout pnlVistaPasajerosLayout = new javax.swing.GroupLayout(pnlVistaPasajeros);
+        pnlVistaPasajeros.setLayout(pnlVistaPasajerosLayout);
+        pnlVistaPasajerosLayout.setHorizontalGroup(
+            pnlVistaPasajerosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlVistaPasajerosLayout.createSequentialGroup()
+                .addGroup(pnlVistaPasajerosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel21)
+                    .addGroup(pnlVistaPasajerosLayout.createSequentialGroup()
+                        .addGap(35, 35, 35)
+                        .addComponent(pnlRegistroPasajero, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 422, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
-        pnlEstadoReservaLayout.setVerticalGroup(
-            pnlEstadoReservaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlEstadoReservaLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel17)
-                .addContainerGap(108, Short.MAX_VALUE))
-        );
-
-        pnlReservaParalela.setBorder(javax.swing.BorderFactory.createLineBorder(null));
-
-        jLabel18.setText("Reserva Paralela");
-
-        jLabel20.setText("Numero de Asiento:");
-
-        btnReservarRP.setText("Reservar");
-
-        javax.swing.GroupLayout pnlReservaParalelaLayout = new javax.swing.GroupLayout(pnlReservaParalela);
-        pnlReservaParalela.setLayout(pnlReservaParalelaLayout);
-        pnlReservaParalelaLayout.setHorizontalGroup(
-            pnlReservaParalelaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlReservaParalelaLayout.createSequentialGroup()
-                .addGroup(pnlReservaParalelaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(pnlReservaParalelaLayout.createSequentialGroup()
+        pnlVistaPasajerosLayout.setVerticalGroup(
+            pnlVistaPasajerosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlVistaPasajerosLayout.createSequentialGroup()
+                .addGroup(pnlVistaPasajerosLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(pnlVistaPasajerosLayout.createSequentialGroup()
+                        .addComponent(jLabel21)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(pnlRegistroPasajero, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(pnlVistaPasajerosLayout.createSequentialGroup()
                         .addContainerGap()
-                        .addGroup(pnlReservaParalelaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel18)
-                            .addGroup(pnlReservaParalelaLayout.createSequentialGroup()
-                                .addComponent(jLabel20)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(txtNumAsiento, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(pnlReservaParalelaLayout.createSequentialGroup()
-                        .addGap(76, 76, 76)
-                        .addComponent(btnReservarRP)))
-                .addContainerGap(125, Short.MAX_VALUE))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)))
+                .addContainerGap())
         );
-        pnlReservaParalelaLayout.setVerticalGroup(
-            pnlReservaParalelaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlReservaParalelaLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel18)
-                .addGap(18, 18, 18)
-                .addGroup(pnlReservaParalelaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel20)
-                    .addComponent(txtNumAsiento, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(btnReservarRP)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        pnlVistaCola.setBorder(javax.swing.BorderFactory.createLineBorder(null));
-
-        jLabel19.setText("Vista de Cola");
-
-        javax.swing.GroupLayout pnlVistaColaLayout = new javax.swing.GroupLayout(pnlVistaCola);
-        pnlVistaCola.setLayout(pnlVistaColaLayout);
-        pnlVistaColaLayout.setHorizontalGroup(
-            pnlVistaColaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlVistaColaLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel19)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        pnlVistaColaLayout.setVerticalGroup(
-            pnlVistaColaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlVistaColaLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel19)
-                .addContainerGap(108, Short.MAX_VALUE))
-        );
-
-        btnLimpiarReservas.setText("Limpiar Reservas");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -525,23 +750,15 @@ public class JFrame_Main extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(pnlMenu, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(pnlVentanilla1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(pnlVentanilla2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(pnlVentanilla3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createSequentialGroup()
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(pnlReservaParalela, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(pnlAsientoBoleteria, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGap(24, 24, 24)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(pnlEstadoReserva, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(pnlVistaCola, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                    .addComponent(btnLimpiarReservas))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(pnlVistaPasajeros, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(pnlVentanilla1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(pnlVentanilla2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(pnlVentanilla3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(pnlAsientoBoleteria, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -549,118 +766,94 @@ public class JFrame_Main extends javax.swing.JFrame {
             .addComponent(pnlMenu, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(pnlVentanilla3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(pnlVentanilla1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(pnlVentanilla2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(pnlAsientoBoleteria, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(pnlVistaPasajeros, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(pnlAsientoBoleteria, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(pnlEstadoReserva, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(pnlVistaCola, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(pnlReservaParalela, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(12, 12, 12)
-                .addComponent(btnLimpiarReservas)
-                .addContainerGap(13, Short.MAX_VALUE))
+                    .addComponent(pnlVentanilla2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pnlVentanilla1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(pnlVentanilla3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtNombrePasajeroV1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombrePasajeroV1ActionPerformed
+    private void txtPasajeroV1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPasajeroV1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtNombrePasajeroV1ActionPerformed
-
-    private void txtCambioAsientoV1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCambioAsientoV1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtCambioAsientoV1ActionPerformed
+    }//GEN-LAST:event_txtPasajeroV1ActionPerformed
 
     private void txtNumAsientoV1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNumAsientoV1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtNumAsientoV1ActionPerformed
 
-    private void btnEliminarV1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarV1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnEliminarV1ActionPerformed
-
     private void txtNumAsientoV2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNumAsientoV2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtNumAsientoV2ActionPerformed
 
-    private void txtCambioAsientoV2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCambioAsientoV2ActionPerformed
+    private void txtPasajeroV2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPasajeroV2ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtCambioAsientoV2ActionPerformed
-
-    private void txtNombrePasajeroV2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombrePasajeroV2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtNombrePasajeroV2ActionPerformed
-
-    private void btnEliminarV2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarV2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnEliminarV2ActionPerformed
+    }//GEN-LAST:event_txtPasajeroV2ActionPerformed
 
     private void txtNumAsientoV3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNumAsientoV3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtNumAsientoV3ActionPerformed
 
-    private void txtCambioAsientoV3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCambioAsientoV3ActionPerformed
+    private void txtPasajeroV3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtPasajeroV3ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtCambioAsientoV3ActionPerformed
-
-    private void txtNombrePasajeroV3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNombrePasajeroV3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_txtNombrePasajeroV3ActionPerformed
+    }//GEN-LAST:event_txtPasajeroV3ActionPerformed
 
     private void btnEliminarV3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarV3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnEliminarV3ActionPerformed
 
+    private void btnEliminarV2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarV2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnEliminarV2ActionPerformed
+
+    private void btnEliminarV1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarV1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnEliminarV1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
-    public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
-        try {
-            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
-                if ("Nimbus".equals(info.getName())) {
-                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
-                    break;
-                }
-            }
-        } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(JFrame_Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(JFrame_Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(JFrame_Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(JFrame_Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        //</editor-fold>
-
-        /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new JFrame_Main().setVisible(true);
-            }
-        });
-    }
-
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnAsiento1;
+    private javax.swing.JButton btnAsiento10;
+    private javax.swing.JButton btnAsiento11;
+    private javax.swing.JButton btnAsiento12;
+    private javax.swing.JButton btnAsiento13;
+    private javax.swing.JButton btnAsiento14;
+    private javax.swing.JButton btnAsiento15;
+    private javax.swing.JButton btnAsiento16;
+    private javax.swing.JButton btnAsiento17;
+    private javax.swing.JButton btnAsiento18;
+    private javax.swing.JButton btnAsiento19;
+    private javax.swing.JButton btnAsiento2;
+    private javax.swing.JButton btnAsiento20;
+    private javax.swing.JButton btnAsiento21;
+    private javax.swing.JButton btnAsiento22;
+    private javax.swing.JButton btnAsiento23;
+    private javax.swing.JButton btnAsiento24;
+    private javax.swing.JButton btnAsiento25;
+    private javax.swing.JButton btnAsiento26;
+    private javax.swing.JButton btnAsiento27;
+    private javax.swing.JButton btnAsiento3;
+    private javax.swing.JButton btnAsiento4;
+    private javax.swing.JButton btnAsiento5;
+    private javax.swing.JButton btnAsiento6;
+    private javax.swing.JButton btnAsiento7;
+    private javax.swing.JButton btnAsiento8;
+    private javax.swing.JButton btnAsiento9;
     private javax.swing.JButton btnCambiarV1;
     private javax.swing.JButton btnCambiarV2;
     private javax.swing.JButton btnCambiarV3;
     private javax.swing.JButton btnEliminarV1;
     private javax.swing.JButton btnEliminarV2;
     private javax.swing.JButton btnEliminarV3;
-    private javax.swing.JButton btnLimpiarReservas;
-    private javax.swing.JButton btnReservarRP;
+    private javax.swing.JButton btnRegistrarPasajero;
     private javax.swing.JButton btnReservarV1;
     private javax.swing.JButton btnReservarV2;
     private javax.swing.JButton btnReservarV3;
@@ -672,11 +865,8 @@ public class JFrame_Main extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -685,23 +875,23 @@ public class JFrame_Main extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTable jTable1;
     private javax.swing.JPanel pnlAsientoBoleteria;
-    private javax.swing.JPanel pnlEstadoReserva;
     private javax.swing.JPanel pnlMenu;
-    private javax.swing.JPanel pnlReservaParalela;
+    private javax.swing.JPanel pnlRegistroPasajero;
     private javax.swing.JPanel pnlVentanilla1;
     private javax.swing.JPanel pnlVentanilla2;
     private javax.swing.JPanel pnlVentanilla3;
-    private javax.swing.JPanel pnlVistaCola;
-    private javax.swing.JTextField txtCambioAsientoV1;
-    private javax.swing.JTextField txtCambioAsientoV2;
-    private javax.swing.JTextField txtCambioAsientoV3;
-    private javax.swing.JTextField txtNombrePasajeroV1;
-    private javax.swing.JTextField txtNombrePasajeroV2;
-    private javax.swing.JTextField txtNombrePasajeroV3;
-    private javax.swing.JTextField txtNumAsiento;
+    private javax.swing.JPanel pnlVistaPasajeros;
+    private javax.swing.JTextField txtCedula;
+    private javax.swing.JTextField txtDireccion;
+    private javax.swing.JTextField txtNombre;
     private javax.swing.JTextField txtNumAsientoV1;
     private javax.swing.JTextField txtNumAsientoV2;
     private javax.swing.JTextField txtNumAsientoV3;
+    private javax.swing.JTextField txtPasajeroV1;
+    private javax.swing.JTextField txtPasajeroV2;
+    private javax.swing.JTextField txtPasajeroV3;
     // End of variables declaration//GEN-END:variables
 }

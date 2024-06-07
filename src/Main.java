@@ -16,7 +16,8 @@ public class Main {
 
     public static void main(String[] args) {    
         JFrame frame = new JFrame_Main();
-        frame.setSize(1060, 580);
+        frame.setTitle("Aerolinea UG - Reservar Asiento");
+        frame.setSize(1050, 625);
         frame.setVisible(true);
         
 
